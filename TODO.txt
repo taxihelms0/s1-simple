@@ -1,3 +1,4 @@
 image downloader: https://stuk.github.io/jszip/
 
 Create pages from the text files in ./python
+Make a yml data file for pages and pics: https://jekyllrb.com/docs/datafiles/
