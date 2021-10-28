@@ -6,7 +6,7 @@ reads text file list of events with the following characteristics
     MM/DD Event Title with a bunch of information
       or
     MM/DD - MM/DD Event Title with a bunch of information
-parses data to 
+It also creates an individual .md file for the event
 '''
 
 import os
@@ -35,13 +35,13 @@ def parse_date(yr, dt):
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 
-# open outfile
-outfile_name = '_events.txt'
+# open yaml_outfile
+yaml_filename = '_events.yml'
 try:
-  outfile = open(outfile_name, "w")
-  print("writing to", outfile_name)
+  yaml_outfile = open(yaml_filename, "w")
+  print("writing to", yaml_filename)
 except:
-  print("could not open", outfile_name)
+  print("could not open", yaml_filename)
 
 year = 2014
 # for f in files:
@@ -69,20 +69,19 @@ while year <= 2018:
         end_date_string = parse_date(year, end_date)
         # print("end_date:", end_date_string)
 
-        # Format Title
+        # Format Title & post_url
         title = ""
+        post_url = date_string
         i = 1
         # skip over date values
         if end_date != date:
           # end date and date are different
           # skip both dates and hyphen
           i = 3
-        while i < len(words):
-          title += words[i]
-          # add space if it is not the last word
-          if i != len(words)-1:
-            title += " "
-          i += 1
+        
+        title = " ".join(words[i:len(words)])
+        url_string = words[i].replace('/', '')
+        post_url = date_string + "-" + url_string + '.md'
 
         # remove illegal chars 
         title = title.replace('w/', 'with')
@@ -91,68 +90,72 @@ while year <= 2018:
         title = title.replace(':', ' -')
         title = title.replace('&', 'and')
 
+        post_url = post_url.replace('w/', 'with')
+        post_url = post_url.replace('"', '')
+        post_url = post_url.replace('/', '-')
+        post_url = post_url.replace(':', '')
+        post_url = post_url.replace('&', '-')
+        post_url = post_url.replace(',', '')
+        post_url = post_url.replace('---', '')
+        post_url = post_url.replace('é', 'e')
+
         # generate artists 
 
         # generate categories
-        categories = {"visual"}
+        categories = "visual"
 
         #generate description
 
         # generate links
 
-        # generate post_url
-
         # generate asset_folder
         asset_folder = "/assets/{}/{}"
         asset_folder = asset_folder.format(year, date_string)
 
-        # Write data to outfile
-        # print(".")
+        # Write data to yaml_outfile
         try:
-          outfile.write("- title: ")
-          outfile.write(title)
+          yaml_outfile.write("- post_url: ")
+          yaml_outfile.write(post_url)
 
-          outfile.write("\n\tyear: ")
-          outfile.write(str(year))
+          yaml_outfile.write("\n  title: ")
+          yaml_outfile.write(title)
 
-          outfile.write("\n\tdate: ")
-          outfile.write(date_string)
+          yaml_outfile.write("\n  year: ")
+          yaml_outfile.write(str(year))
 
-          outfile.write("\n\tend_date: ")
+          yaml_outfile.write("\n  date: ")
+          yaml_outfile.write(date_string)
+
+          yaml_outfile.write("\n  end_date: ")
           if end_date_string != date_string:
-            outfile.write(end_date_string)
+            yaml_outfile.write(end_date_string)
 
-          outfile.write("\n\tartists:")
+          yaml_outfile.write("\n  artists: ")
           # for artist in artists:
-          #   outfile.write("\n\t\t- ")
-          #   outfile.write(arist)
+          #   yaml_outfile.write("\n    - ")
+          #   yaml_outfile.write(arist)
 
-          outfile.write("\n\tcategories:")
-          # todo: declare categories
-          for category in categories:
-            outfile.write("\n\t\t- ")
-            outfile.write(category)
+          yaml_outfile.write("\n  categories: ")
+          yaml_outfile.write(categories)
 
-          outfile.write("\n\tdescription: ")
+          yaml_outfile.write("\n  description: ")
 
-          outfile.write("\n\tlinks:")
+          yaml_outfile.write("\n  links: ")
           # for link in links:
-          #   outfile.write("\n\t\t- ")
-          #   outfile.write(link)
+          #   yaml_outfile.write("\n    - ")
+          #   yaml_outfile.write(link)
 
-          outfile.write("\n\tpost_url: ")
-          # todo: concatenate event title
+          yaml_outfile.write("\n  asset_folder: ")
+          yaml_outfile.write(asset_folder)
 
-          outfile.write("\n\tasset_folder: ")
-          outfile.write(asset_folder)
-
-          outfile.write("\n\n")
+          yaml_outfile.write("\n\n")
 
         except:
-          print("could not write", title)
-          
+          print("could not write yaml", title)
+        
+        
     infile.close()
     year += 1
 print("done")
-outfile.close()
+yaml_outfile.close()
 print("file closed")
