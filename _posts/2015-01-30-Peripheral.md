@@ -9,5 +9,3 @@ categories: visual
 asset_folder: 2015-01-30-Peripheral
 
 ---
-http://www.kuorinki.com/
-http://www.lisaradon.com/

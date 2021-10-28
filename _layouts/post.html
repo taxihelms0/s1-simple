@@ -37,23 +37,25 @@ layout: default
         {% endif %}
         
         {% if event.links %}
-          <br>
-          links:
-            {% for link in event.links %}
+          {% for link in event.links %}
+            <li>
               <a href="{{ link }}">
                 {{ link }}
               </a>
-            {% endfor %}  
-          </ul>
+            </li>
+          {% endfor %}  
         {% endif %}
 
       {% endif %}
     {% endfor %}
   </div>
-  {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
   {% for image in site.static_files %}
-    {% if image.path contains year %}
+    {% if image.path contains page.asset_folder %}
+      {% if image.path contains '.pdf' %}
+        <li><a href="{{ site.baseurl }}{{ image.path }}">{{ site.baseurl }}{{ image.path }}</a></li>
+      {% else %}
         <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
+      {% endif %}
     {% endif %}
   {% endfor %}
 

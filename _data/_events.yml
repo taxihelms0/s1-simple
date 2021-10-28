@@ -406,6 +406,20 @@
     - https://www.youtube.com/watch?v=rs9tREAnurk
   asset_folder: /assets/2017/2017-07-16-Art
 
+- post_url: 2017-07-29-Sadaf.md
+  title: Sadaf - Decent, Bitten, Glad - Artist Residency & Performance with Yale Union
+  year: 2017
+  date: 2017-07-29
+  end_date:
+  artists:
+    - Sadaf H Nava
+  categories: visual
+  description: artist residency & performance
+  links:
+    - https://yaleunion.org/sadaf/
+    - https://vimeo.com/227531876
+  asset_folder: /assets/2017/2017-07-29-Sadaf
+
 - post_url: 2017-08-24-Proscenium.md
   title: Proscenium Arch
   year: 2017
