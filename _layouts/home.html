@@ -10,11 +10,11 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+    {%- assign posts = site.posts | sort: "date" -%}
     <ul class="post-list">
       {% capture year %}2014{% endcapture %}
       {{ year }}
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if post_year == year %}
           <li>
@@ -27,7 +27,7 @@ layout: default
       <br>
       {% capture year %}2015{% endcapture %}
       {{ year }}
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if post_year == year %}
           <li>
@@ -40,7 +40,7 @@ layout: default
       <br>
       {% capture year %}2016{% endcapture %}
       {{ year }}
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if post_year == year %}
           <li>
@@ -54,7 +54,7 @@ layout: default
       {% capture year %}2017{% endcapture %}
       {{ year }}
 
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if post_year == year %}
           <li>
@@ -67,7 +67,7 @@ layout: default
       <br>
       {% capture year %}2018{% endcapture %}
       {{ year }}
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% if post_year == year %}
           <li>
@@ -83,4 +83,3 @@ layout: default
   {%- endif -%}
 
 </div>
-<br><br>
