@@ -28,31 +28,31 @@ if data:
       year = data[i].replace("year: ", '').strip('\n')
       # print(year.strip())
     if "asset_folder: " in data[i]:
-      print(data[i])
-      print(year)
-      print(post_url_string)
+      # print(data[i])
+      # print(year)
+      # print(post_url_string)
       folder_string = folder_string.format(year.strip(), post_url_string.replace('.md\n',''))
       # print(folder_string)
       folders.append(folder_string)
       print(folder_string)
-      data[i] = "asset_folder: " + folder_string + "\n"
-      print(data[i])
+      data[i] = "  asset_folder: " + folder_string + "\n"
+      # print(data[i])
       # print(data[i])
     i += 1
 
-
-try:
-  with open('_events.yml', "w") as outfile:
-    outfile.writelines(data)
-  outfile.close()
-  print("_events.yml written")
-except:
-  print("could not write to _events.yml")
+# this is to write the yaml file, leave it commented out
+# try:
+#   with open('_events.yml', "w") as outfile:
+#     outfile.writelines(data)
+#   outfile.close()
+#   print("_events.yml written")
+# except:
+#   print("could not write to _events.yml")
 
 
 os.chdir('..')
-# for folder in folders:
-  # print(folder)
+for folder in folders:
+  print(folder)
     
     
   # if '.yml' in f:

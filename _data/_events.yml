@@ -8,7 +8,7 @@
   description: 
   links: 
     - https://screenshadowsgroup.wordpress.com/lessons-in-heterosexuality-portland/
-  asset_folder: /assets/2014/2014-07-02
+  asset_folder: /assets/2014/2014-07-02-Screenshadows
 
 - post_url: 2014-08-14-The.md
   title: The Scenario of Work - Eric W. Mast
@@ -20,7 +20,7 @@
   description: 
   links: 
     - https://ericwmast.com
-  asset_folder: /assets/2014/2014-08-14
+  asset_folder: /assets/2014/2014-08-14-The
 
 - post_url: 2014-09-26-ProjectsGridlords.md
   title: Projects-Gridlords
@@ -40,7 +40,7 @@
   description: 
   links: 
     - https://theprojectspdx.tumblr.com
-  asset_folder: /assets/2014/2014-09-26
+  asset_folder: /assets/2014/2014-09-26-ProjectsGridlords
 
 - post_url: 2014-10-03-Apple.md
   title: Apple of my Iris - Carly Mandel and Rebecca Peel
@@ -55,7 +55,7 @@
   links: 
     - http://rebeccarpeel.info
     - https://www.carlymandel.com
-  asset_folder: /assets/2014/2014-10-03
+  asset_folder: /assets/2014/2014-10-03-Apple
 
 - post_url: 2014-10-14-Cinema.md
   title: Cinema Project Presents Makino Takashi - Space Noise
@@ -69,7 +69,7 @@
   description: 
   links: 
     - https://cinemaproject.org/archive/screenings/2014/fall/takashi
-  asset_folder: /assets/2014/2014-10-14
+  asset_folder: /assets/2014/2014-10-14-Cinema
 
 - post_url: 2014-11-14-Slow.md
   title: Slow Grow - Tony Chrenka
@@ -82,7 +82,7 @@
   description: 
   links: 
     - http://www.tonychrenka.com
-  asset_folder: /assets/2014/2014-11-14
+  asset_folder: /assets/2014/2014-11-14-Slow
 
 - post_url: 2014-12-12-Its.md
   title: “It’s Really Cool To Be Here” - Thomas J Gamble
@@ -95,7 +95,7 @@
   description: 
   links: 
     - http://www.thomasjgamble.com
-  asset_folder: /assets/2014/2014-12-12
+  asset_folder: /assets/2014/2014-12-12-Its
 
 - post_url: 2015-01-03-Teaches.md
   title: Teaches a Rainbow - Derek Corns
@@ -107,7 +107,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2015/2015-01-03
+  asset_folder: /assets/2015/2015-01-03-Teaches
 
 - post_url: 2015-01-30-Peripheral.md
   title: Peripheral Array - Mikko Kuorinki and Lisa Radon
@@ -120,7 +120,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2015/2015-01-30
+  asset_folder: /assets/2015/2015-01-30-Peripheral
 
 - post_url: 2015-02-13-Physical.md
   title: Physical Education
@@ -140,7 +140,7 @@
   links: 
     - https://www.youtube.com/watch?v=o0qkbOxbG2k
     - https://physsicalleduucationn.wordpress.com
-  asset_folder: /assets/2015/2015-02-13
+  asset_folder: /assets/2015/2015-02-13-Physical
 
 - post_url: 2015-04-18-Justin.md
   title: Justin James Reed - Shining Bodies
@@ -153,7 +153,7 @@
   description: 
   links: 
     - https://justinjamesreed.com
-  asset_folder: /assets/2015/2015-04-18
+  asset_folder: /assets/2015/2015-04-18-Justin
 
 - post_url: 2015-04-20-ESP.md
   title: E.S.P. TV Live Taping
@@ -174,7 +174,7 @@
     - https://www.esptv.com/2015-season-five/2015/9/28/esp-tv-85
     - https://www.esptv.com/2015-season-five/2015/10/13/esp-tv-86
     - https://www.esptv.com/2015-season-five/2015/10/13/esp-tv-87
-  asset_folder: /assets/2015/2015-04-20
+  asset_folder: /assets/2015/2015-04-20-ESP
 
 - post_url: 2015-04-24-Goodsport.md
   title: Goodsport - Nicolo Gentile
@@ -186,7 +186,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2015/2015-04-24
+  asset_folder: /assets/2015/2015-04-24-Goodsport
 
 - post_url: 2015-04-30-Marc.md
   title: Marc Matchak “Last night a pencil saved my life”
@@ -198,7 +198,7 @@
   categories: visual
   description: performative lecture
   links: 
-  asset_folder: /assets/2015/2015-04-30
+  asset_folder: /assets/2015/2015-04-30-Marc
 
 - post_url: 2015-05-14-Cinema.md
   title: Cinema Project - Picture in Picture
@@ -213,7 +213,7 @@
   description: 
   links: 
     - https://cinemaproject.org/archive/screenings/2015/spring/picture-in-picture-2
-  asset_folder: /assets/2015/2015-05-14
+  asset_folder: /assets/2015/2015-05-14-Cinema
 
 - post_url: 2015-05-28-Emily.md
   title: Emily Jones - Orange House Action Clinic
@@ -226,7 +226,7 @@
   description: 
   links: 
     - https://emilyjones.info
-  asset_folder: /assets/2015/2015-05-28
+  asset_folder: /assets/2015/2015-05-28-Emily
 
 - post_url: 2015-07-24-Wyatt.md
   title: Wyatt Niehaus - Listen, Baxter
@@ -239,7 +239,7 @@
   description: 
   links: 
     - http://wyattniehaus.com
-  asset_folder: /assets/2015/2015-07-24
+  asset_folder: /assets/2015/2015-07-24-Wyatt
 
 - post_url: 2015-08-20-Taro.md
   title: Taro Masushio and Jodie Cavalier - Just take my word for it
@@ -254,7 +254,7 @@
   links: 
     - https://emptygallery.com/artists/taro-masushio/
     - http://www.jodiecavalier.com
-  asset_folder: /assets/2015/2015-08-20
+  asset_folder: /assets/2015/2015-08-20-Taro
 
 - post_url: 2015-10-09-marissa.md
   title: marissa jezak tony hope
@@ -268,7 +268,7 @@
   description: 
   links: 
     - http://www.marissajezak.com
-  asset_folder: /assets/2015/2015-10-09
+  asset_folder: /assets/2015/2015-10-09-marissa
 
 - post_url: 2015-12-11-I.md
   title: I Wish Lunch Could Last Forever - Ron Ewert
@@ -281,7 +281,7 @@
   description: 
   links: 
     - https://ronewert.com
-  asset_folder: /assets/2015/2015-12-11
+  asset_folder: /assets/2015/2015-12-11-I
 
 - post_url: 2016-02-11-Local.md
   title: Local Tide by PARALLELOGRAMS
@@ -312,7 +312,7 @@
   description: 
   links: 
     - http://www.parallelograms.info
-  asset_folder: /assets/2016/2016-02-11
+  asset_folder: /assets/2016/2016-02-11-Local
 
 - post_url: 2016-03-26-Raquel.md
   title: Raquel Racquel - Raque Ford and Rachel Malin
@@ -327,7 +327,7 @@
   links: 
     - https://cargocollective.com/rmalin/About
     - http://www.raqueinezford.com
-  asset_folder: /assets/2016/2016-03-26
+  asset_folder: /assets/2016/2016-03-26-Raquel
 
 - post_url: 2016-04-29-Ornamental.md
   title: Ornamental Hypergate Conglomerate - Birch Cooper
@@ -340,7 +340,7 @@
   description: 
   links: 
     - http://birchcooper.net/ornamentalhypergateconglomerate.html
-  asset_folder: /assets/2016/2016-04-29
+  asset_folder: /assets/2016/2016-04-29-Ornamental
 
 - post_url: 2016-06-25-Mistake.md
   title: Mistake Capacity - Sarah Wong and Maria Katarina
@@ -351,7 +351,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2016/2016-06-25
+  asset_folder: /assets/2016/2016-06-25-Mistake
 
 - post_url: 2016-06-29-Life.md
   title: Life of a Craphead - Bugs Screening
@@ -365,7 +365,7 @@
   links: 
     - http://bugs.world
     - www.lifeofacraphead.com/
-  asset_folder: /assets/2016/2016-06-29
+  asset_folder: /assets/2016/2016-06-29-Life
 
 - post_url: 2016-08-26-Alisa.md
   title: Alisa Bones – Fathers of Abstraction
@@ -378,7 +378,7 @@
   description: 
   links: 
     - https://www.alisabones.net
-  asset_folder: /assets/2016/2016-08-26
+  asset_folder: /assets/2016/2016-08-26-Alisa
 
 - post_url: 2017-06-01-Neanmoins.md
   title: Néanmoins UNE Catachrèse, sidony o'neal
@@ -390,7 +390,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2017/2017-06-01
+  asset_folder: /assets/2017/2017-06-01-Neanmoins
 
 - post_url: 2017-07-16-Art.md
   title: Art is a context sport - Pastiche Lumumba Artist Talk
@@ -404,7 +404,7 @@
   links: 
     - https://homeschoolpdx.tumblr.com/pastiche
     - https://www.youtube.com/watch?v=rs9tREAnurk
-  asset_folder: /assets/2017/2017-07-16
+  asset_folder: /assets/2017/2017-07-16-Art
 
 - post_url: 2017-08-24-Proscenium.md
   title: Proscenium Arch
@@ -415,7 +415,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2017/2017-08-24
+  asset_folder: /assets/2017/2017-08-24-Proscenium
 
 - post_url: 2017-12-02-Physical.md
   title: Physical Education Presents SAY WHEN a mini festival
@@ -427,7 +427,7 @@
   description: 
   links: 
     - https://physsicalleduucationn.wordpress.com
-  asset_folder: /assets/2017/2017-12-02
+  asset_folder: /assets/2017/2017-12-02-Physical
 
 - post_url: 2018-04-27-Paraiso.md
   title: Paraiso Sidéral - Manu Torres
@@ -438,7 +438,7 @@
   categories: visual
   description: 
   links: 
-  asset_folder: /assets/2018/2018-04-27
+  asset_folder: /assets/2018/2018-04-27-Paraiso
 
 - post_url: 2018-05-04-CVLLEJERX.md
   title: CVLLEJERX - ROPA VIEJA - fashion, performance, book release
@@ -456,7 +456,7 @@
   description: 
   links: 
     - http://maximiliano.info/cvllejerx
-  asset_folder: /assets/2018/2018-05-04
+  asset_folder: /assets/2018/2018-05-04-CVLLEJERX
 
 - post_url: 2018-06-24-N-Prolenta.md
   title: N-Prolenta
@@ -470,7 +470,7 @@
   links: 
     - https://homeschoolpdx.tumblr.com/prolenta
     - https://www.youtube.com/watch?v=7wVtxRHhKY4
-  asset_folder: /assets/2018/2018-06-24
+  asset_folder: /assets/2018/2018-06-24-N-Prolenta
 
 - post_url: 2018-08-31-icU.md
   title: i/c/U - Connection and Control
@@ -490,7 +490,7 @@
   description: presented with Homeschool
   links: 
     - https://homeschoolpdx.tumblr.com/icu
-  asset_folder: /assets/2018/2018-08-31
+  asset_folder: /assets/2018/2018-08-31-icU
 
 - post_url: 2018-12-14-Andrea.md
   title: Andrea Sisson - Work In Progress
@@ -504,5 +504,5 @@
   links: 
     - https://vimeo.com/480175752
     - http://www.andreasisson.com/research-production
-  asset_folder: /assets/2018/2018-12-14
+  asset_folder: /assets/2018/2018-12-14-Andrea
 
