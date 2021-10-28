@@ -1,4 +1,5 @@
 ---
+layout: post
 post_url: 2014-09-26-ProjectsGridlords.md
 title: Projects-Gridlords
 year: 2014

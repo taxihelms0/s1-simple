@@ -1,4 +1,5 @@
 ---
+layout: post
 post_url: 2018-06-24-N-Prolenta.md
 title: N-Prolenta
 year: 2018

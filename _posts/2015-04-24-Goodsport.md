@@ -1,4 +1,5 @@
 ---
+layout: post
 post_url: 2015-04-24-Goodsport.md
 title: Goodsport - Nicolo Gentile
 year: 2015

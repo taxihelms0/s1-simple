@@ -1,4 +1,5 @@
 ---
+layout: post
 post_url: 2014-07-02-Screenshadows.md
 title: Screenshadows Group Presents - Lessons in Heterosexuality
 year: 2014

@@ -1,4 +1,5 @@
 ---
+layout: post
 post_url: 2017-08-24-Proscenium.md
 title: Proscenium Arch Opening Reception
 year: 2017
