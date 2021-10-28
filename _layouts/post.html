@@ -16,6 +16,31 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    <!-- pull data from yaml -->
+    {% for event in site.data._events %}
+      {% if event.post_url == page.post_url %}
+
+        {% if event.artists %}
+          <br>
+          artists: 
+          {% for artist in event.artists %}
+            {{ artist }}
+          {% endfor %}
+        {% endif %}
+        
+        {% if event.links %}
+          <br>
+          links:
+            {% for link in event.links %}
+              <a href="{{ link }}">
+                {{ link }}
+              </a>
+            {% endfor %}  
+          </ul>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
   </div>
   {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
   {% for image in site.static_files %}
