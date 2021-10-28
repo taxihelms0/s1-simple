@@ -1,5 +1,8 @@
 S1 Visual Archive (for Roya):
 
+TODO:
+Edit yaml asset folder to be /assets/YEAR/post_url(w/out '.md')
+
 2014:
 PDXLAX
 - find pics

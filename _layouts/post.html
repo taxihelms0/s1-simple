@@ -4,14 +4,18 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      
-    </p>
+    {% for event in site.data._events %}
+      {% if event.post_url == page.post_url %}
+        <h1 class="post-title p-name" itemprop="name headline">{{ event.title | escape }}</h1>
+        <p class="post-meta">
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ event.date | date: date_format }}
+          </time>
+          
+        </p>
+      {% endif %}
+    {% endfor %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -24,7 +28,11 @@ layout: default
           <br>
           artists: 
           {% for artist in event.artists %}
-            {{ artist }}
+            {% if artist == event.artists.first %}
+              {{ artist }}
+            {% else %}
+              / {{ artist }}
+            {% endif %}
           {% endfor %}
         {% endif %}
         

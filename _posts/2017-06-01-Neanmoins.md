@@ -6,5 +6,6 @@ year: 2017
 date: 2017-06-01
 end_date: 
 categories: visual
-asset_folder: /assets/2017/2017-06-01
+asset_folder: 2017-06-01-Neanmoins
+
 ---

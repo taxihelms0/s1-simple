@@ -6,7 +6,8 @@ year: 2014
 date: 2014-07-02
 end_date: 
 categories: visual
-asset_folder: /assets/2014/2014-07-02
+asset_folder: 2014-07-02-Screenshadows
+
 ---
 London-based film curators The Screenshadows Group present a series of films and talks looking at the love that never bothers to speak its name.
 

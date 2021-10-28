@@ -6,5 +6,6 @@ year: 2014
 date: 2014-09-26
 end_date: 
 categories: visual
-asset_folder: /assets/2014/2014-09-26
+asset_folder: 2014-09-26-ProjectsGridlords
+
 ---

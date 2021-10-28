@@ -6,7 +6,8 @@ year: 2015
 date: 2015-01-30
 end_date: 
 categories: visual
-asset_folder: /assets/2015/2015-01-30
+asset_folder: 2015-01-30-Peripheral
+
 ---
 http://www.kuorinki.com/
 http://www.lisaradon.com/

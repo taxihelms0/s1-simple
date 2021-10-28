@@ -6,5 +6,6 @@ year: 2018
 date: 2018-06-24
 end_date: 
 categories: visual
-asset_folder: /assets/2018/2018-06-24
+asset_folder: 2018-06-24-N-Prolenta
+
 ---
