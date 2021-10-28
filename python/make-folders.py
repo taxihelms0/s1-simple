@@ -53,6 +53,7 @@ if data:
 os.chdir('..')
 for folder in folders:
   print(folder)
+  os.mkdir('.' + folder)
     
     
   # if '.yml' in f:
