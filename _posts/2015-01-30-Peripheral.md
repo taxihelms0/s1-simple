@@ -7,3 +7,5 @@ end_date:
 categories: visual
 asset_folder: /assets/2015/2015-01-30
 ---
+http://www.kuorinki.com/
+http://www.lisaradon.com/
