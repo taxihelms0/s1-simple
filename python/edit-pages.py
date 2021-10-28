@@ -17,7 +17,7 @@ for f in files:
     
     i = 0
     layout_flag = False
-    asset_line_string = "asset_folder: {}\n"
+    asset_line_string = "asset_folder: {}"
     post_url_string = ""
     while i < len(data):
       if "layout: post" in data[i]:
