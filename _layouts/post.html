@@ -42,14 +42,13 @@ layout: default
             <li><a href="{{ link }}">{{ link }}</a></li>
           {% endfor %}  
         {% endif %}
-
       {% endif %}
     {% endfor %}
   </div>
   {% for image in site.static_files %}
     {% if image.path contains page.asset_folder %}
       {% if image.path contains '.jpg' or image.path contains '.JPG' or image.path contains '.jpeg' or image.path contains '.gif' or image.path contains '.GIF' %}
-        <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
+        <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.title }}" /></a>
       {% else %}
         <li>{% if image.path contains '.zip' %}Download all from this page: {% endif %}<a href="{{ site.baseurl }}{{ image.path }}">{{ image.path }}</a></li>  
       {% endif %}
