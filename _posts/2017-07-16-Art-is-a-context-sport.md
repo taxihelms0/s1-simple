@@ -1,6 +1,6 @@
 ---
 layout: post
-post_url: 2017-07-16-Art.md
+post_url: 2017-07-16-Art-is-a-context-sport.md
 title: Art is a context sport - Pastiche Lumumba Artist Talk
 year: 2017
 date: 2017-07-16

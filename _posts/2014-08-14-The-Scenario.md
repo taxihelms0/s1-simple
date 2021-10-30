@@ -1,6 +1,6 @@
 ---
 layout: post
-post_url: 2014-08-14-The.md
+post_url: 2014-08-14-The-Scenario.md
 title: The Scenario of Work - Eric W. Mast
 year: 2014
 date: 2014-08-14

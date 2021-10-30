@@ -1,6 +1,6 @@
 ---
 layout: post
-post_url: 2014-12-12-Its.md
+post_url: 2014-12-12-Its-Really-Cool.md
 title: “It’s Really Cool To Be Here” - Thomas J Gamble
 year: 2014
 date: 2014-12-12

@@ -1,6 +1,6 @@
 ---
 layout: post
-post_url: 2016-08-26-Alisa.md
+post_url: 2016-08-26-Alisa-Bones.md
 title: Alisa Bones – Fathers of Abstraction
 year: 2016
 date: 2016-08-26
