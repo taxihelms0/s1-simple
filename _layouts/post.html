@@ -48,7 +48,7 @@ layout: default
   </div>
   {% for image in site.static_files %}
     {% if image.path contains page.asset_folder %}
-      {% if image.path contains '.jpg' or image.path contains '.JPG' or image.path contains '.gif' or image.path contains '.GIF' %}
+      {% if image.path contains '.jpg' or image.path contains '.JPG' or image.path contains '.jpeg' or image.path contains '.gif' or image.path contains '.GIF' %}
         <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
       {% else %}
         <li><a href="{{ site.baseurl }}{{ image.path }}">{{ image.path }}</a></li>  
