@@ -51,7 +51,7 @@ layout: default
       {% if image.path contains '.jpg' or image.path contains '.JPG' or image.path contains '.jpeg' or image.path contains '.gif' or image.path contains '.GIF' %}
         <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
       {% else %}
-        <li><a href="{{ site.baseurl }}{{ image.path }}">{{ image.path }}</a></li>  
+        <li>{% if image.path contains '.zip' %}Download all from this page: {% endif %}<a href="{{ site.baseurl }}{{ image.path }}">{{ image.path }}</a></li>  
       {% endif %}
     {% endif %}
   {% endfor %}
