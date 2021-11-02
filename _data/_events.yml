@@ -365,7 +365,7 @@
   links: 
   asset_folder: /assets/2016/2016-06-25-Mistake
 
-- post_url: 2016-06-29-Life.md
+- post_url: 2016-06-29-Life-Bugs.md
   title: Life of a Craphead - Bugs Screening
   year: 2016
   date: 2016-06-29
@@ -398,8 +398,21 @@
   date: 2016-11-11
   end_date:
   artists:
+    - Patricia Vazquez
+    - Leo Ariel
+    - Tiara Jackson
+    - Jessica Ramírez
+    - Cvllejerx
+    - Mack Carlisle
+    - Margaret Jacobsen
+    - Kat Salas
+    - Claudia Cuentas Oviedo
+    - Angelica Maria Millán Lozano
+    - Tex Ados
+    - Kesheena Doctor
+    - Shawn Creeden
   categories: visual
-  description: Pochas Cosas
+  description: Presented by Pochas Cosas
   links:
   asset_folder: /assets/2016/2016-11-11-esto
 
@@ -494,6 +507,20 @@
   links: 
     - http://maximiliano.info/cvllejerx
   asset_folder: /assets/2018/2018-05-04-CVLLEJERX
+
+- post_url: 2018-06-16-Haptic.md
+  title: Sea Moss - Haptic Living Room
+  year: 2018
+  date: 2018-06-16
+  end_date:
+  artists:
+    - Sea Moss
+    - Noa Ver
+    - Zac D'Agostino
+  categories: visual
+  description:
+  links:
+  asset_folder: /assets/2018/2018-06-16-Haptic
 
 - post_url: 2018-06-24-N-Prolenta.md
   title: N-Prolenta
