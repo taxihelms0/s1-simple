@@ -2,3 +2,8 @@ img {
   max-width: 450px;
   max-height: 450px;
 }
+
+.about {
+  max-width: 800px;
+  margin-right: 40px;
+}
