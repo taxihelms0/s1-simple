@@ -1,0 +1,12 @@
+{%- for post in posts -%}
+  {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if post_year == year %}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%-b %d, %Y" -%}
+      {{ post.date | date: date_format }} - <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </li>
+  {% endif %}
+{%- endfor -%}
+<br>
